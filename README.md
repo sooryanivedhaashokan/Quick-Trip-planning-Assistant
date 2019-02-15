@@ -3,7 +3,7 @@
 
 Project Proposal:
     
-    In this project I would like to create a web application that suggest the best time to plan the trip based on the activity the user planning to do at any destination in US and would simulate various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends.
+   In this project I would like to create a web application that suggest the best time to plan the trip based on the activity the user planning to do at any destination in US and would simulate various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends.
 
 Aim of the project:
   
