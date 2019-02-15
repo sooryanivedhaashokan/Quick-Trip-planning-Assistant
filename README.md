@@ -17,9 +17,9 @@ Aim of the project:
    
     Weather condition of the destination
     Suggest best time (month) of the year to visit the destination
-    List of destination you could also consider to travel on mentioned dates
-    Current air fares if you book immediately
-    Suggest the user to wait for to book ticket due to probability of  price down in the future
+    List of destination you could also consider to travel on mentioned date
+    Current air fares if you book air ticket immediately
+    Suggest the user to wait for booking due to probability of flight price down in the future days before departure
 
 To do list:
 
