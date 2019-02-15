@@ -1,4 +1,4 @@
-                                    Title: Profitable Trip planning Assistant in US from JFK-New York
+                                    Title: Profitable US Trip planning Assistant from JFK-New York
 
 
 Project Proposal:
