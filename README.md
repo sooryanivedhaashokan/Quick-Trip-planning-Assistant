@@ -1,38 +1,34 @@
-                                    Title: Profitable US Trip planning Assistant from JFK-New York
+                           Title: Profitable Trip planning Assistant from New York to Anywhere
 
-
-Project Proposal:
-    
-   In this project I would like to create a web application that suggest the best time to plan the trip based on the activity the user planning to do at any destination in US and would simulate various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends.
 
 Aim of the project:
-  
-  Input from the user:
-    
-    US Destination: where to go
-    Travel start date : departure date  
-    Trip activity - eg: skiing, trekking, relaxing, scuba diving etc
 
-  Output:
+     The aim of this project is to provide the user an handy information about the destination they dream to visit and to make their planning profitable.
+
+Abstract:
+    
+    In this project I have created a web application that quickly provide an overall idea about the destination the user plans to visit anywhere in the world from New York. The application would provide information about weather, closest airports and cheapest air fares. Based on the airfares the user could decide their vacation destination as per their budget. Also with the knowledge of weather they could plan their activity during the vaction.
+
+
+Input from the user:
+    
+    Destination: where to go
+    Travel start date : departure date 
+    Travel End date : arrival date
+    
+Output:
    
     Weather condition of the destination
-    Suggest best time (month) of the year to visit the destination
-    List of destination you could also consider to travel on mentioned date
     Current air fares if you book air ticket immediately
-    Suggest the user to wait for booking due to probability of flight price down in the future days before departure
+    
+How this works:
+    
+    Used Django framework to create web application for travel recommendation
+    Used Django forms to get user input - Location, Date range
+    Used weather API to obtain temperatures for the given date range
+    Used flight API to identify closest airports to the destination and check for the cheapest flight available for the travel period
 
-To do list:
-
-     Create a GUI using Tkinter
-     Data collection: 
-       Using scrapy web crawling framework to get data in csv database
-       Explore data collection automation techniques 
-     Data Preprocessing:
-       Using pandas to do exploratory analysis of data
-     Data Preparation: 
-       Analyze data distribution
-       Extract required features - using Scikit-learn library
-     Predictive model building using algorithms to forecast airfare drop 
-       Explore ways to suggest the day to book the flight in cheaper rate
-           
+Future Enhancement:
+    
+    We could enhance the project by simulating various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends.
   
