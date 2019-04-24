@@ -3,7 +3,7 @@
 
 Aim of the project:
 
-  The aim of this project is to provide the user a quick and handy information about the destination they dream to visit and to make their planning profitable.
+  The aim of this project is to provide user a quick and handy information about the destination they dream to visit and to make their planning profitable.
 
 Abstract:
     
