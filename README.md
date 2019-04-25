@@ -21,6 +21,34 @@ Output:
     Weather condition of the destination
     Current air fares if you book air ticket immediately
     
+
+Directory Structure:
+
+    |__mysite               # Django Project created called "mysite"
+       |__kunju             # Application created inside Django Project
+          |__ __pycache__
+          |__ migrations
+          |__ templates
+          |__ tests
+          |__ admin.py
+          |__ air.py
+          |__ apps.py
+          |__ forms.py
+          |__ 
+       |__manage.py 
+       |__test
+       |__mysite
+          |__ __init__.py
+          |__ __pycache__
+          |__ settings.py
+          |__ urls.py
+          |__ wsgi.py
+    |__README.md
+    
+    
+    
+
+
 How this works:
     
     Used Django framework to create web application for travel recommendation
