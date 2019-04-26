@@ -55,7 +55,7 @@ Directory Structure:
     
 How to Test:
    
-    cd mysite
+    cd mysite(Top)
     Run the executable file "./test" (if not open this file and run each command individually)
     Then start the server by clicking the link on the terminal
     Example:
