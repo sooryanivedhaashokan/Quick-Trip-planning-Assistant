@@ -6,7 +6,7 @@ Aim of the project:
 
 Abstract:
     
-   In this project I have created a web application that quickly provide an overall idea about the destination the user plans to visit anywhere in the world from New York having direct flights. The application would provide information about weather, closest airports and cheapest air fares for destination. Based on the airfares the user could decide their vacation destination as per their budget. Also with the knowledge of weather they could plan their activity during the vaction.
+   In this project I have created a web application that quickly provide an overall idea about the destination the user plans to visit anywhere in the world from New York having direct flights. The application would provide information about weather, closest airports and cheapest air fares for destination with no layover or hops. Based on the airfares the user could decide their vacation destination as per their budget with minimum travel time. Also with the knowledge of weather they could plan their activity during the vaction.
 
 
 Input from the user:
