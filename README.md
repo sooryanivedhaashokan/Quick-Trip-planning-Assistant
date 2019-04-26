@@ -10,6 +10,7 @@ Abstract:
 
 
 Input from the user:
+Note: Please enter the correct spelling for the Location. Auto complete feature is not implemented yet   
     
     Destination: where to go
     Travel start date : departure date 
@@ -19,39 +20,47 @@ Output:
    
     Weather condition of the destination
     Closest Airports and city
-    Current air fares for the direct flights 
+    Current air fares for the direct flights, if there is no direct flights then displays Nothing
     
 
 Directory Structure:
 
     |__mysite               # Django Project created called "mysite"
        |__kunju             # Application created inside Django Project
-          |__ __pycache__
           |__ migrations
           |__ templates
           |__ tests
-          |__ admin.py
+              |__ test.py   # Test command: (Top) cd mysite , $python3 -m unittest kunju/tests/test.py
+              |__ test_air.py
+              |__ test_flight.py
+              |__ test_geolocate.py
+              |__ test_weather.py
           |__ air.py
           |__ apps.py
+          |__ flight.py
           |__ forms.py
-          |__ 
-       |__manage.py 
-       |__test
-       |__mysite
-          |__ __init__.py
-          |__ __pycache__
+          |__ geolocate.py
+          |__ urls.py
+          |__ views.py
+          |__ weather.py
+          |__ widgets.py
+       |__ manage.py 
+       |__ requiements.txt    # contains all the required installation to access the application 
+       |__ test               # Executable file for quick testing of the application
+       |__ mysite             # Django Project created called "mysite", folder contains required file for project to run
           |__ settings.py
           |__ urls.py
           |__ wsgi.py
     |__README.md
     
-    
-    
-
+How to Test:
+   
+    cd mysite
+    Run the executable file "./test"
 
 How this works:
     
-    Used Django framework to create web application for travel recommendation
+    Used Django 2.1.7 framework to create web application for travel recommendation
     Used Django forms to get user input - Location, Date range
     Used weather API to obtain temperatures for the given date range
     Used flight API to identify closest airports to the destination  
@@ -63,7 +72,7 @@ Motivation:
 
 Future Enhancement:
     
-    We could enhance the project by simulating various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends. Also add auto complete options for search locations and provide flight details for destinations with multiple hops.
+    We could enhance the project by simulating various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends. 
     
 References:
 [1]. https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00140/full
