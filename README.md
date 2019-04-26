@@ -1,5 +1,4 @@
-                           Title: Profitable Trip planning Assistant from New York to Anywhere
-
+                           Title: Profitable Trip planning Assistant from New York 
 
 Aim of the project:
 
@@ -7,7 +6,7 @@ Aim of the project:
 
 Abstract:
     
-   In this project I have created a web application that quickly provide an overall idea about the destination the user plans to visit anywhere in the world from New York. The application would provide information about weather, closest airports and cheapest air fares. Based on the airfares the user could decide their vacation destination as per their budget. Also with the knowledge of weather they could plan their activity during the vaction.
+   In this project I have created a web application that quickly provide an overall idea about the destination the user plans to visit anywhere in the world from New York having direct flights. The application would provide information about weather, closest airports and cheapest air fares for destination. Based on the airfares the user could decide their vacation destination as per their budget. Also with the knowledge of weather they could plan their activity during the vaction.
 
 
 Input from the user:
@@ -19,7 +18,8 @@ Input from the user:
 Output:
    
     Weather condition of the destination
-    Current air fares if you book air ticket immediately
+    Closest Airports and city
+    Current air fares for the direct flights 
     
 
 Directory Structure:
@@ -63,7 +63,7 @@ Motivation:
 
 Future Enhancement:
     
-    We could enhance the project by simulating various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends.
+    We could enhance the project by simulating various models for forecasting the future air fares and classifying whether to buy or wait for the reduction in air ticket fare based on historical trends. Also add auto complete options for search locations and provide flight details for destinations with multiple hops.
     
 References:
 [1]. https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00140/full
