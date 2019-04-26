@@ -45,7 +45,7 @@ Directory Structure:
           |__ weather.py
           |__ widgets.py
        |__ manage.py 
-       |__ requiements.txt    # contains all the required installation to access the application 
+       |__ requiement.txt    # contains all the required installation to access the application 
        |__ test               # Executable file for quick testing of the application
        |__ mysite             # Django Project created called "mysite", folder contains required file for project to run
           |__ settings.py
@@ -56,7 +56,10 @@ Directory Structure:
 How to Test:
    
     cd mysite
-    Run the executable file "./test"
+    Run the executable file "./test" (if not open this file and run each command individually)
+    Then start the server by clicking the link on the terminal
+    Example:
+        Starting development server at http://127.0.0.1:8000/
 
 How this works:
     
