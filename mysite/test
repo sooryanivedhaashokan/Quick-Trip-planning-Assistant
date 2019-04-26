@@ -1,0 +1,7 @@
+pip install -r requirement.txt 
+python3 -m unittest kunju/tests/test_air.py 
+python3 -m unittest kunju/tests/test_geolocate.py
+python3 -m unittest kunju/tests/test_flight.py 
+python3 -m unittest kunju/tests/test_weather.py
+python3 manage.py runserver 
+
