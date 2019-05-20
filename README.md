@@ -1,4 +1,4 @@
-                           Title: Profitable Trip planning Assistant from New York 
+                           Title: Quick Trip planning Assistant from New York 
 
 Aim of the project:
 
